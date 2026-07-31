@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Muhamad Nuryamin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-logo">Portofolio</span>
+    <ul class="nav-links">
+      <li><a href="#hero">Beranda</a></li>
+      <li><a href="#skills">Skill</a></li>
+      <li><a href="#gallery">Galeri</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-photo-wrap">
+      <img src="img/Nuryamin.jpg" alt="Muhamad Nuryamin">
+    </div>
+    <h1 class="hero-name">Muhamad Nuryamin</h1>
+    <p class="hero-title">Front-End Developer</p>
+    <div class="hero-divider"></div>
+    <p class="hero-bio">
+      Hai! Saya seorang pengembang web yang bersemangat dalam menciptakan pengalaman digital yang bersih, fungsional, dan elegan. Saya menyukai detail kecil yang membuat perbedaan besar.
+    </p>
+    <a href="#contact" class="hero-cta">Hubungi Saya</a>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="reveal">
+      <p class="section-label">Keahlian</p>
+      <h2 class="section-title">Skill Saya</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🎨</div>
+        <div class="skill-name">HTML</div>
+        <p class="skill-desc">Struktur semantik, aksesibel, dan SEO-friendly untuk setiap halaman web.</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="85%"></div></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">✨</div>
+        <div class="skill-name">CSS</div>
+        <p class="skill-desc">Animasi, Flexbox, Grid, dan desain responsif yang memanjakan mata.</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="80%"></div></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">⚡</div>
+        <div class="skill-name">JavaScript</div>
+        <p class="skill-desc">Interaktivitas, manipulasi DOM, dan logika aplikasi web modern.</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="45%"></div></div>
+      </div>
+
+<div class="skill-card reveal">
+        <div class="skill-icon">🎨</div>
+        <div class="skill-name">Github</div>
+        <p class="skill-desc">Struktur semantik, aksesibel, dan SEO-friendly untuk setiap halaman web.</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="85%"></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section gallery-section">
+    <div class="section-header">
+      <p class="section-label">My moments</p>
+      <h2 class="section-title">Gallery</h2>
+    </div>
+    <div class="gallery-container">
+
+      <!-- ITEM GALERI 1 -->
+      <div class="gallery-item-wrap" data-index="0">
+        <div class="gallery-item-inner">
+          <img src="img/Percabangan Ternary - Koperasi Simpan Pinjam - Google Chrome 5_29_2026 8_54_03 AM.png" alt="Gallery 1" class="gallery-item">
+          <div class="gallery-overlay">
+            <button class="gallery-btn-zoom" data-src="img/Percabangan Ternary - Koperasi Simpan Pinjam - Google Chrome 5_29_2026 8_54_03 AM.png">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            </button>
+          </div>
+        </div>
+        <p class="gallery-caption">web koprasi simpan pinjam</p>
+      </div>
+
+      <!-- ITEM GALERI 2 -->
+      <div class="gallery-item-wrap" data-index="1">
+        <div class="gallery-item-inner">
+          <img src="img/Percabangan IF lebih Detail - Google Chrome 5_29_2026 9_47_12 AM.png" alt="foto.1" class="gallery-item">
+          <div class="gallery-overlay">
+            <button class="gallery-btn-zoom" data-src="img/Percabangan IF lebih Detail - Google Chrome 5_29_2026 9_47_12 AM.png">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            </button>
+          </div>
+        </div>
+        <p class="gallery-caption">web toko supermarket </p>
+      </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="section-header">
+      <p class="section-label">Get in touch</p>
+      <h2 class="section-title">Hubungi Saya</h2>
+    </div>
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <p class="contact-intro">Punya proyek menarik atau ingin berkolaborasi? Jangan ragu untuk menghubungi saya. Saya siap membantu!</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <span>nuryamin28@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <span>Cieurih, Majalengka, Bandung, Jawa Barat, Indonesia</span>
+          </div>
+        </div>
+      </div>
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="input-group">
+          <input type="text" id="name" placeholder=" " autocomplete="off" required>
+          <label for="name">Nama</label>
+          <div class="input-line"></div>
+        </div>
+        <div class="input-group">
+          <input type="email" id="email" placeholder=" " autocomplete="off" required>
+          <label for="email">Email</label>
+          <div class="input-line"></div>
+        </div>
+        <div class="input-group">
+          <textarea id="message" rows="4" placeholder=" " required></textarea>
+          <label for="message">Pesan</label>
+          <div class="input-line"></div>
+        </div>
+        <button type="submit" class="btn-send">
+          <span class="btn-text">Kirim Pesan</span>
+          <span class="btn-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </span>
+          <div class="btn-ripple"></div>
+        </button>
+        <div class="form-feedback" id="formFeedback"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2026 Muhamad Nuryamin</span>
+  </footer>
+
+  <!-- LIGHTBOX MODAL -->
+  <div id="lightbox">
+    <button id="lbClose" title="Tutup (Esc)">✕</button>
+    <button id="lbPrev">&#8249;</button>
+    <img id="lbImg" src="" alt="">
+    <button id="lbNext">&#8250;</button>
+    <div id="lbCounter"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html> </script>
